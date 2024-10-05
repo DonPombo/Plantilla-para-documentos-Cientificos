@@ -1,0 +1,21 @@
+Título en español: {{ titulo_espanol }}
+Título en inglés: {{ titulo_ingles }}
+Autores: {{ autores }}
+Afiliación: {{ afiliacion_1 }}
+Resumen: {{ resumen }}
+Palabras clave: {{ palabras_clave }}
+
+Abstract: {{ abstract }}
+Keywords: {{ keywords }}
+
+Introducción
+{{ introduccion }}
+
+Materiales y métodos
+{{ materiales_metodos }}
+
+Resultados y discusión
+{{ resultados_discusion }}
+
+Conclusiones
+{{ conclusiones }}

@@ -1,0 +1,15 @@
+2. Funcionalidades Nuevas o Extensiones
+a. Soporte para Exportar como PDF
+Además de generar documentos .docx, podrías proporcionar la opción de exportar el documento como PDF. Puedes utilizar bibliotecas como reportlab o PyPDF2 para esto.
+
+b. Agregar Formato Dinámico y Tablas
+En lugar de solo texto, podrías permitir al usuario agregar tablas con datos específicos. Podrías agregar botones adicionales en la GUI para que el usuario especifique cuántas filas y columnas quiere.
+
+c. Validaciones de Interfaz de Usuario
+Añade un sistema de validación visual para los campos obligatorios, por ejemplo, resaltando en rojo aquellos que estén vacíos cuando se intente generar el documento.
+
+d. Plantillas Variables
+Permitir elegir entre múltiples plantillas para diferentes tipos de documentos. Podrías tener varias plantillas almacenadas y dejar que el usuario elija cuál quiere usar para cada documento. Esto podría hacerse agregando un cuadro combinado (combobox) para la selección de la plantilla.
+
+e. Guardar Configuración de Usuario
+Permitir al usuario guardar sus datos (como información de autores o afiliación) para no tener que ingresarlos cada vez que use la aplicación. Esto podría implementarse guardando en un archivo JSON.
